@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: blueviolet;
+}    
+
+header {
+        margin-top: -350px;
+        margin-left: 30px;
+        width: 10%;
+        font-size: 30px;
+        font-weight: 400, 600;
+        font-family: Poppins;
+      
+}
+
+.left-col {
+        margin-top: 70px;
+        
+    
+}
+
+.left-col img {
+    width: 700px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: -45px; ;
+}
+
+.right-col header {
+        text-align: end;
+        color: white;
+        display: flex;
+        display: flex;
+        padding-left: 800px;
+        padding-top: -110px;
+        min-width: 1300px;
+        font-size: 40px;    
+}
+
+.right-col p {
+    display: flex;
+    padding-left: 800px; 
+    padding-top: 20px;
+    max-width: 2000px;
+    font-size: 17px;
+    font-weight: 300px;
+    color: white;
+}
+
+.right-col nav {
+    display:block;
+    float: right;
+    margin-right:500px;
+    margin-top: 30px;
+    margin-left: -20px;
+    color: violet;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 1.9em;
+    line-height: 50px;
+    text-indent:50px;
+}
+
+/* Social Apps */
+
+.downwards-navigation {
+    
+    display: flex;
+    margin-top: 120px;
+   margin-left: 1100px;
+   justify-content: 100 100 50;
+   gap: 30px;
+}
+
+.facebook-icon {
+    background-color: black;
+    border-radius: 100%;
+}
+.twitter-icon {
+    background-color: black;
+    border-radius: 100%;
+}
+
+.instagram-icon {
+    background-color: black;
+    border-radius: 100%;
+}
+
+
+
+    
+/* Microinteractions */
+.right-col nav:hover{
+    background: violet;
+    color: white;
+}
+
+.facebook-icon:hover{
+    background:violet;
+    color: white;
+}
+
+.twitter-icon:hover{
+    background:violet;
+    color: white;
+}
+
+.instagram-icon:hover{
+    background:violet;
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 375px) {
+    header {
+        width: 20%;
+    }
+
+
+
+
+    .left-col{
+        width: 375%;
+    }
+
+    
+}
+
+
